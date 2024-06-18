@@ -59,4 +59,12 @@ router.post("/login", async (req, res) => {
   }
 });
 
+
+router.post('get-user-by-id',async(token)=>{
+  try {
+    
+  } catch (error) {
+    
+  }
+})
 module.exports = router;
