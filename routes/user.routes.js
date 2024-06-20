@@ -41,6 +41,7 @@ router.post("/login", async (req, res) => {
         expiresIn: "1d",
       });
       res.status(200).send({ message: "Login successful", success: true, data: token });
+      
     }
   } catch (e) {
     console.log(e);
